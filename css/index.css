@@ -1,5 +1,10 @@
+section {
+    padding: 62px 0;
+}
+
+
 .main-banner {
-    background-image: url('./images/main-banner.png');
+    background-image: url('../images/main-banner.png');
     aspect-ratio: 1440/768;
     padding: 190px 0;
 }
@@ -42,4 +47,15 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+.services__title {
+    position: relative;
+}
+
+.services__title h2{
+    position: absolute;
+    top: -16px;
+    left: 45%;
+    background-color: white;
 }
